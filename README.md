@@ -46,13 +46,11 @@ hand as follows:
 5. If you currently have any open pages from
    [WillBrownsberger.com][1], reload them to see the change.
 
-<center>
 ![Extension Options Menu Command][3]
 
 [3]: https://github.com/jikamens/WillBrownsbergerComFilter/raw/main/doc/options_menu.png
 
 Figure 1: Extension Options Menu Command
-</center>
 
 ## Credits, copyright, license
 
