@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head><title>WillBrownsberger.com Filter Options</title></head>
+  <body>
+    <p>This Chrome extension allows you to filter out commenters by
+      name in the replies to articles posted
+      on <a href="https://willbrownsberger.com/"
+            target="_blank">WillBrownsberger.com</a>.</p>
+    <p>To use it, list the names of commenters you don't want to see
+      in the text box below, separated by semicolons. If you would
+      also prefer not to see the replies to their comments, check the
+      checkbox as well. Then save your preferences and reload any
+      pages on the site that you're already viewing, and you should
+      see your settings take effect.</p>
+    <label for="names">Names of commenters to filter, separated by
+      semicolons:</label>
+    <input type="text" id="names"/><br/>
+    <input type="checkbox" id="replies"/>
+    <label for="replies">Hide replies to those commenters?</label><br/>
+    <div id="status"></div>
+    <button id="save">Save</button>
+    <script src="options.js"></script>
+  </body>
+</html>
+
