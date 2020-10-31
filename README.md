@@ -47,7 +47,9 @@ hand as follows:
    [WillBrownsberger.com][1], reload them to see the change.
 
 <center>
-![Extension Options Menu Command](doc/options_menu.png)
+![Extension Options Menu Command][3]
+
+[3]: https://github.com/jikamens/WillBrownsbergerComFilter/raw/main/doc/options_menu.png
 
 Figure 1: Extension Options Menu Command
 </center>
@@ -60,8 +62,8 @@ All of the files included with this extension are Copyright &copy;
 subject to the terms of the Mozilla Public License, v. 2.0, the terms
 of which can be found [here][4].
 
-[3]: mailto:jik@kamens.us
-[4]: https://mozilla.org/MPL/2.0/
+[4]: mailto:jik@kamens.us
+[5]: https://mozilla.org/MPL/2.0/
 
 ## Provenance
 
