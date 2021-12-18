@@ -6,7 +6,9 @@ chrome.storage.sync.get({
     var hideReplies = items.replies;
 
     var stopAt = hideReplies ? 'LI' : 'ARTICLE';
-    var names = document.getElementsByClassName('fn');
+    // Convert to Array because if we modify the DOM while we're iterating over
+    // it some nodes get missed.
+    var names = Array.from(document.getElementsByClassName('fn'));
     for (var node of names) {
         if (namesToFilter.includes(node.textContent)) {
             while (node.tagName.toUpperCase() != stopAt) {
